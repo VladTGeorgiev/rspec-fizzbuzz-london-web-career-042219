@@ -1,3 +1,7 @@
-def fizzbuzz
+require 'pry'
 
+def fizzbuzz(int)
+  if int % 3 == 0
+    "Fizz"
+  end
 end
